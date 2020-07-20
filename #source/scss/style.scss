@@ -1,0 +1,249 @@
+// Файл обнуляющих стилей
+@import "nullstyle.scss";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
+
+body{
+	font-family: Lato;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+
+	display: flex;
+	flex-direction: column;
+}
+.container{
+	max-width: 820px;
+	margin: 0 auto;
+}
+.content {
+	flex: 1 1 auto;
+}
+
+
+.slider {
+	background: url(../img/slider/bg.jpg) no-repeat center;
+	max-width: 100%;
+	text-align: center;
+	&__row {
+		display: flex;
+		height: 1000px;
+		justify-content: center;
+		align-items: center;
+		align-content: space-around;
+		flex-direction: column;
+	}
+	&__logo {
+		width: 195px;
+		height: 123px;
+		img{
+			margin-top: -140px;
+		}
+	}
+	&__header {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__title {
+		width: 757px;
+		height: 70px;
+		color: #ffffff;
+		font-family: "Lato";
+		font-size: 34px;
+		font-weight: 400;
+		line-height: 40px;
+		text-transform: uppercase;
+		font-weight: 900;
+		letter-spacing: 5.43px;
+	}
+	&__text {
+		width: 410px;
+		height: 30px;
+		font-family: Lato;
+		color: #ffffff;
+		font-size: 26px;
+		font-weight: 400;
+		letter-spacing: 4.15px;
+	}
+	&:before{
+		content:'';
+		position: absolute;
+		top: 40rem;
+		width: 105px;
+		height: 2px;
+		left: 50%;
+		background-color: #fff;
+		margin: 0px 0px 0px -52.5px;
+	}
+	&__btn {
+		margin-top: 180px;
+		input{
+			background: none;
+			border: 2px solid #fff;
+			padding: 16px 40px 18px 42px;
+			color: #ffffff;
+			font-family: Lato;
+			font-size: 16px;
+			font-weight: 400;
+			text-transform: uppercase;
+			letter-spacing: 0.67px;
+			&:hover{
+				background: #fff;
+				transition: .5s;
+				color: #000;
+				margin: 0px 0px 0px 0px;
+			}
+		}
+	}
+}
+
+.menu {
+	max-width: 100%;
+	border-bottom: 1px solid #f0f0f0;
+	padding: 20px 0px 20px 0px;
+	&__list {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 422px;
+		margin: 0 auto;
+	}
+	&__list-item {
+		height: 15px;
+		color: #3c3c3c;
+		font-family: Lato;
+		font-size: 15px;
+		font-weight: 400;
+		text-transform: uppercase;
+		padding: 0px 17px 0px 17px;
+		a{
+			cursor: pointer;
+			text-decoration: none;
+		}
+	}
+}
+.item-active{
+	color: #ada074;
+	font-weight: 700;
+}
+
+
+
+.about {
+	&__body {
+		max-width: 823px;
+		margin: 0px auto;
+	}
+	&__header {
+		margin: 95px 0px 65px 0px;
+	}
+	&__title {
+		margin: 0px 0px 30px 0px;
+	}
+	&__text {
+		max-width: 688px;
+		color: #868585;
+		font-size: 14px;
+		font-weight: 300;
+		text-align: center;
+		line-height: 25.89px;
+		margin: 0px auto;
+	}
+	&__row {
+		display: flex;
+		font-size: 0;
+		margin: 0px -15px;
+	}
+	&__column {
+		padding: 0px 15px;
+		flex: 0 0 33.333%;
+	}
+}
+.title {
+	font-size: 34px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 8.95px;
+	position: relative;
+	text-align: center;
+	padding: 0px 0px 30px 0px;
+	&:after{
+		content:'';
+		position: absolute;
+		width: 50px;
+		bottom: 0;
+		height: 1px;
+		left: 50%;
+		background-color: #000;
+		margin: 0px 0px 0px -25px;
+	}
+}
+.item-about {
+	&__icon {
+		margin: 0px auto 40px auto;
+		border-radius: 50%;
+		width: 92px;
+		height: 92px;
+		border: 2px solid #f1f1f1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	&__title {
+		text-align: center;
+		color: #000;
+		font-size: 22px;
+		text-transform: uppercase;
+		letter-spacing: 3.52px;
+		margin: 0px 0px 35px 0px;
+	}
+	&__text {
+		text-align: center;
+		color: #868585;
+		line-height: 26px;
+		font-weight: 300;
+		font-size: 14px;
+		margin-bottom: 90px;
+	}
+}
+
+.footer {
+	background: #3c3c3c;
+	&__row {
+		display: flex;
+		height: 270px;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	&__logo {
+		width: 122px;
+		height: 78px;
+	}
+	&__nav {
+		margin: 40px 0px 30px 0px;
+	}
+	&__list {
+		display: flex;
+		width: 260px;
+		height: 11px;
+		font-family: Lato;
+		font-size: 14px;
+		font-weight: 400;
+		cursor: pointer;
+		li{
+			margin: 0px 10px 0px 10px;
+			color: #a4a4a4;
+		}
+	}
+	&__text {
+		width: 175px;
+		height: 13px;
+		color: #6c6c6c;
+		font-size: 14px;
+		font-weight: 400;
+	}
+}
