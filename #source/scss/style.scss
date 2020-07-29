@@ -247,7 +247,7 @@ body{
 		}
 	}
 	&__text {
-		color: #718493;
+		color: $text;
 		@include adaptiv-font(16, 14);
 		font-weight: 400;
 		line-height: 30px;
@@ -299,7 +299,7 @@ body{
 	}
 }
 .title {
-	color: #3c4357;
+	color: $header_text;
 	font-family: 'Raleway', sans-serif;
 	@include adaptiv-font(30, 24);
 	font-weight: 700;
@@ -324,7 +324,7 @@ body{
 		margin: 0px 0px 15px 0px;
 	}
 	&__text {
-		color: #718493;
+		color: $text;
 		@include adaptiv-font(16, 14);
 		font-weight: 400;
 		line-height: 32px;
@@ -366,14 +366,14 @@ body{
 	}
 	&__caption {
 		margin: 20px 0px 20px 0px;
-		color: #3c4357;
+		color: $header_text;
 		@include adaptiv-font(18, 16);
 		font-weight: 700;
 		line-height: 30px;
 		text-align: center;
 	}
 	&__word {
-		color: #718493;
+		color: $text;
 		font-size: 16px;
 		line-height: 20px;
 		text-align: center;
@@ -383,7 +383,7 @@ body{
 //==================================================================================================================================
 //==================================================================================================================================
 .video {
-	background-color: #edf3f8;
+	background-color: $main_color;
 	&__header {
 		text-align: center;
 		padding: 130px 0px 0px 0px;
@@ -396,7 +396,7 @@ body{
 	}
 	&__text{
 		margin: 15px 0px 50px 0px;
-		color: #718493;
+		color: $text;
 		@include adaptiv-font(16, 14);
 		font-weight: 400;
 		line-height: 28px;
@@ -416,7 +416,7 @@ body{
 	&__circle {
 		padding: 12px;
 		border-radius: 50%;
-		border: 2px solid #bcccd9;
+		border: 2px solid $elements;
 		@media (max-width: 768px) {
 			padding: 10px;
 		}
@@ -496,14 +496,14 @@ body{
 		}
 	}
 	&__caption {
-		color: #3c4357;
+		color: $header_text;
 		@include adaptiv-font(18, 16);
 		font-weight: 700;
 		line-height: 30px;
 		text-align: center;
 	}
 	&__word {
-		color: #718493;
+		color: $text;
 		@include adaptiv-font(16, 14);
 		line-height: 20px;
 		text-align: center;
@@ -550,7 +550,7 @@ body{
 		justify-content: center;
 	}
 	&__title {
-		color: #718493;
+		color: $main_color;
 		font-family: 'Raleway', sans-serif;
 		font-size: 14px;
 		font-weight: 700;
@@ -562,7 +562,7 @@ body{
 		}
 	}
 	&__price {
-		color: #ffffff;
+		color: #fff;
 		font-family: 'Raleway', sans-serif;
 		@include adaptiv-font(60, 50);
 		font-weight: 700;
@@ -657,7 +657,7 @@ body{
 				@media (max-width: 480px) {
 					margin: 0px 10px;
 				}
-				&:last-child{
+				&:first-child{
 					margin: 0px 0px 0px 0px;
 				}
 				a{
@@ -665,7 +665,7 @@ body{
 					@include adaptiv-font(16, 14);
 					font-weight: 400;
 					line-height: 36px;
-					color: #6d808e;
+					color: $text;
 					&:hover{
 						transition: all 0.3s ease 0s;
 						color: #fff;
@@ -679,7 +679,7 @@ body{
 		@include adaptiv-font(16, 14);
 		font-weight: 400;
 		line-height: 30px;
-		color: #6d808e;
+		color: $text;
 		@media (max-width: 768px) {
 			text-align: center;
 		}
@@ -707,7 +707,7 @@ body{
 	}
 }
 .fa-facebook-f {
-	color: #6d808e;
+	color: $text;
 	@include adaptiv-font(18, 14);
 	font-weight: 400;
 	line-height: 50px;
@@ -717,7 +717,7 @@ body{
 	}
 }
 .fa-twitter {
-	color: #6d808e;
+	color: $text;
 	@include adaptiv-font(18, 14);
 	font-weight: 400;
 	line-height: 50px;
@@ -727,7 +727,7 @@ body{
 	}
 }
 .fa-pinterest {
-	color: #6d808e;
+	color: $text;
 	@include adaptiv-font(18, 14);
 	font-weight: 400;
 	line-height: 50px;
@@ -737,7 +737,7 @@ body{
 	}
 }
 .fa-invision {
-	color: #6d808e;
+	color: $text;
 	@include adaptiv-font(18, 14);
 	font-weight: 400;
 	line-height: 50px;
