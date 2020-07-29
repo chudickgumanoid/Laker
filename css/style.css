@@ -300,7 +300,7 @@ body {
   }
 }
 .main__text {
-  color: #718493;
+  color: #7b8d9b;
   font-size: calc(14px + 2 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 30px;
@@ -392,7 +392,7 @@ body {
   margin: 0px 0px 15px 0px;
 }
 .services__text, .blog__text {
-  color: #718493;
+  color: #7b8d9b;
   font-size: calc(14px + 2 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 32px;
@@ -451,7 +451,7 @@ body {
   text-align: center;
 }
 .services__word {
-  color: #718493;
+  color: #7b8d9b;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
@@ -476,7 +476,7 @@ body {
 }
 .video__text {
   margin: 15px 0px 50px 0px;
-  color: #718493;
+  color: #7b8d9b;
   font-size: calc(14px + 2 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 28px;
@@ -605,7 +605,7 @@ body {
   text-align: center;
 }
 .blog__word {
-  color: #718493;
+  color: #7b8d9b;
   font-size: calc(14px + 2 * 		((100vw - 320px) / 780));
   line-height: 20px;
   text-align: center;
@@ -658,7 +658,7 @@ body {
   justify-content: center;
 }
 .footer__title {
-  color: #718493;
+  color: #edf3f8;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -672,7 +672,7 @@ body {
   }
 }
 .footer__price {
-  color: #ffffff;
+  color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: calc(50px + 10 * 		((100vw - 320px) / 780));
   font-weight: 700;
@@ -792,7 +792,7 @@ body {
   font-size: calc(14px + 2 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 36px;
-  color: #6d808e;
+  color: #7b8d9b;
 }
 .contact__menu ul li a:hover {
   transition: all 0.3s ease 0s;
@@ -803,7 +803,7 @@ body {
   font-size: calc(14px + 2 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 30px;
-  color: #6d808e;
+  color: #7b8d9b;
 }
 @media (max-width: 768px) {
   .contact__text {
@@ -839,7 +839,7 @@ body {
 }
 
 .fa-facebook-f {
-  color: #6d808e;
+  color: #7b8d9b;
   font-size: calc(14px + 4 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 50px;
@@ -850,7 +850,7 @@ body {
 }
 
 .fa-twitter {
-  color: #6d808e;
+  color: #7b8d9b;
   font-size: calc(14px + 4 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 50px;
@@ -861,7 +861,7 @@ body {
 }
 
 .fa-pinterest {
-  color: #6d808e;
+  color: #7b8d9b;
   font-size: calc(14px + 4 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 50px;
@@ -872,7 +872,7 @@ body {
 }
 
 .fa-invision {
-  color: #6d808e;
+  color: #7b8d9b;
   font-size: calc(14px + 4 * 		((100vw - 320px) / 780));
   font-weight: 400;
   line-height: 50px;
