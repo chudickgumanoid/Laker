@@ -784,7 +784,7 @@ body {
     margin: 0px 10px;
   }
 }
-.contact__menu ul li:last-child {
+.contact__menu ul li:first-child {
   margin: 0px 0px 0px 0px;
 }
 .contact__menu ul li a {
